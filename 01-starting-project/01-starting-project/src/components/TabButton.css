@@ -1,0 +1,10 @@
+/* App.css */
+.horizontal-buttons {
+  display: flex;
+  list-style: none; /* Remove default list styles */
+  padding: 0; /* Remove default padding */
+}
+
+.horizontal-buttons > * {
+  margin-right: 8px; /* Add some spacing between buttons */
+}
